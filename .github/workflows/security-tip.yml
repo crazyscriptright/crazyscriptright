@@ -1,0 +1,58 @@
+name: Update Security Tip
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Run daily at midnight
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-tip:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate Random Security Tip
+        run: |
+          # Array of security tips
+          tips=(
+            "The best password is one you can't remember! (Use a password manager)"
+            "Never reuse passwords across different services"
+            "Enable 2FA/MFA on all your important accounts"
+            "Update your software regularly - patches fix vulnerabilities"
+            "Always verify URLs before clicking - phishing is real"
+            "Use different email addresses for different security levels"
+            "Your phone number is NOT a secure authentication method"
+            "Public WiFi? Use a VPN. Always."
+            "Social engineering is the weakest link - stay vigilant"
+            "Encrypt your backups - future you will thank you"
+            "HTTPS everywhere - check that lock icon"
+            "Your security is only as strong as your weakest password"
+            "Don't trust, verify - even trusted sources can be compromised"
+            "Regular security audits > hoping for the best"
+            "Privacy is not about hiding, it's about control"
+            "Air-gapped backups save lives (and data)"
+            "Zero trust architecture - trust no one, verify everyone"
+            "Keep your secrets in secrets managers, not in code"
+            "Review your app permissions regularly"
+            "Strong passwords: 16+ characters, mixed case, numbers, symbols"
+          )
+          
+          # Select random tip
+          random_tip=${tips[$RANDOM % ${#tips[@]}]}
+          
+          # Create profile directory if it doesn't exist
+          mkdir -p profile
+          
+          # Save to file
+          echo "$random_tip" > profile/security-tip.txt
+          
+      - name: Commit updated tip
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add profile/security-tip.txt
+          git commit -m "Update daily security tip" || exit 0
+          git push

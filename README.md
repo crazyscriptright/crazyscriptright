@@ -211,12 +211,11 @@ const currentGoals = {
 <summary><img src="https://cdn.simpleicons.org/target/FF6D00" width="16"/> Click here for a surprise!</summary>
 <br>
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWRyOHZ3cGJoOTY4aHBvZGhwZXN3YzVhOXF5ZGFvNjlxMXo3bnRpYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/077i6AULCXc0FKTj9s/giphy.gif" width="300" alt="Hacking GIF"/>
   <br><br>
-  <b><img src="https://cdn.simpleicons.org/shieldsdotio/00F7F7" width="16"/> Security Tip of the Day:</b><br>
-  "The best password is one you can't remember!"<br>
-  (Use a password manager!)
+  <b><img src="https://cdn.simpleicons.org/shieldsdotio/00F7F7" width="16"/> Random Security Tip:</b><br>
+  <img src="https://api.allorigins.win/raw?url=https://raw.githubusercontent.com/crazyscriptright/crazyscriptright/main/profile/security-tip.txt" alt="Security Tip" style="max-width:600px;"/>
   <br><br>
+  <b><img src="https://cdn.simpleicons.org/laughingsquid/FF6D00" width="16"/> Random Dev Joke:</b><br>
   <img src="https://readme-jokes.vercel.app/api?theme=radical&hideBorder&qColor=%2300F7F7&aColor=%23FF6D00" alt="Random Dev Joke"/>
 </p>
 </details>
