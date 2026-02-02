@@ -1,6 +1,6 @@
 <div align="center">
   
-# Anil Kumar | @crazyscriptright
+# Anil | @crazyscriptright
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00F7F7&center=true&vCenter=true&random=false&width=600&lines=Cybersecurity+Enthusiast;MERN+Stack+Developer;Penetration+Tester;Security+Researcher)](https://git.io/typing-svg)
 
@@ -23,7 +23,7 @@
 ```python
 class SecurityEngineer:
     def __init__(self):
-        self.name = "Anil Kumar"
+        self.name = "Anil"
         self.role = "Cybersecurity Enthusiast & Full-Stack Developer"
         self.location = "India"
         self.interests = ["Web Security", "Penetration Testing", "MERN Stack", "AI"]
@@ -202,7 +202,24 @@ const currentGoals = {
 
 ### Open to opportunities in Cybersecurity & Full-Stack Development!
 
-![Profile Views](https://komarev.com/ghpvc/?username=crazyscriptright&color=00F7F7&style=for-the-badge&label=PROFILE+VIEWS)
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=crazyscriptright&color=00F7F7&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views"/>
+  <img src="https://img.shields.io/github/stars/crazyscriptright?style=for-the-badge&logo=github&logoColor=white&color=FF6D00" alt="GitHub Stars"/>
+</p>
+
+<details>
+<summary><img src="https://cdn.simpleicons.org/target/FF6D00" width="16"/> Click here for a surprise!</summary>
+<br>
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWRyOHZ3cGJoOTY4aHBvZGhwZXN3YzVhOXF5ZGFvNjlxMXo3bnRpYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/077i6AULCXc0FKTj9s/giphy.gif" width="300" alt="Hacking GIF"/>
+  <br><br>
+  <b><img src="https://cdn.simpleicons.org/shieldsdotio/00F7F7" width="16"/> Security Tip of the Day:</b><br>
+  "The best password is one you can't remember!"<br>
+  (Use a password manager!)
+  <br><br>
+  <img src="https://readme-jokes.vercel.app/api?theme=radical&hideBorder&qColor=%2300F7F7&aColor=%23FF6D00" alt="Random Dev Joke"/>
+</p>
+</details>
 
 </div>
 
