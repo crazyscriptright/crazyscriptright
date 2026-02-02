@@ -30,6 +30,10 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Generate GitHub Streak Stats
+        run: |
+          curl -o profile/streak-stats.svg "https://github-readme-streak-stats.herokuapp.com?user=${{ github.repository_owner }}&theme=radical&hide_border=true&background=0D1117&stroke=00F7F7&ring=00F7F7&fire=FF6D00&currStreakLabel=00F7F7"
+
       - name: Commit cards
         run: |
           git config user.name "github-actions"

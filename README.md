@@ -135,7 +135,7 @@ me.say_hi()
 </a>
 
 <a href="https://git.io/streak-stats">
-  <img src="https://streak-stats.demolab.com?user=crazyscriptright&theme=radical&hide_border=true&background=0D1117&stroke=00F7F7&ring=00F7F7&fire=FF6D00&currStreakLabel=00F7F7" alt="GitHub Streak"/>
+  <img src="./profile/streak-stats.svg" alt="GitHub Streak"/>
 </a>
 
 </div>
@@ -146,9 +146,12 @@ me.say_hi()
 
 ## <img src="https://cdn.simpleicons.org/chartdotjs/00F7F7" width="24"/> Contribution Graph
 
-![Snake animation](https://raw.githubusercontent.com/crazyscriptright/crazyscriptright/output/github-contribution-grid-snake-dark.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/crazyscriptright/crazyscriptright/output/github-contribution-grid-snake-dark.svg">
+  <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/crazyscriptright/crazyscriptright/output/github-contribution-grid-snake-dark.svg" loading="lazy"/>
+</picture>
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=crazyscriptright&theme=react-dark&hide_border=true&area=true&bg_color=0D1117&color=00F7F7&line=00F7F7&point=FF6D00)
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=crazyscriptright&theme=react-dark&bg_color=0D1117&color=00F7F7&line=00F7F7&point=FF6D00&area=true&hide_border=true" alt="GitHub Activity Graph" loading="lazy"/>
 
 </div>
 
