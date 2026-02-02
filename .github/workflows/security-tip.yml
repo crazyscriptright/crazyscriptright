@@ -4,9 +4,6 @@ on:
   schedule:
     - cron: "0 0 * * *"  # Run daily at midnight
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 jobs:
   update-tip:
@@ -14,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate Random Security Tip
+      - name: Update Security Tip in README
         run: |
           # Array of security tips
           tips=(
@@ -31,7 +28,7 @@ jobs:
             "HTTPS everywhere - check that lock icon"
             "Your security is only as strong as your weakest password"
             "Don't trust, verify - even trusted sources can be compromised"
-            "Regular security audits > hoping for the best"
+            "Regular security audits are better than hoping for the best"
             "Privacy is not about hiding, it's about control"
             "Air-gapped backups save lives (and data)"
             "Zero trust architecture - trust no one, verify everyone"
@@ -41,18 +38,15 @@ jobs:
           )
           
           # Select random tip
-          random_tip=${tips[$RANDOM % ${#tips[@]}]}
+          random_tip="${tips[$RANDOM % ${#tips[@]}]}"
           
-          # Create profile directory if it doesn't exist
-          mkdir -p profile
-          
-          # Save to file
-          echo "$random_tip" > profile/security-tip.txt
+          # Update README with new tip
+          sed -i "s|<b><img src=\"https://cdn.simpleicons.org/shieldsdotio/00F7F7\" width=\"16\"/> Security Tip:</b><br>.*<br>|<b><img src=\"https://cdn.simpleicons.org/shieldsdotio/00F7F7\" width=\"16\"/> Security Tip:</b><br>\"$random_tip\"<br>|" README.md
           
       - name: Commit updated tip
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add profile/security-tip.txt
+          git add README.md
           git commit -m "Update daily security tip" || exit 0
           git push

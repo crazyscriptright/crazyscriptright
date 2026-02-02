@@ -211,12 +211,13 @@ const currentGoals = {
 <summary><img src="https://cdn.simpleicons.org/target/FF6D00" width="16"/> Click here for a surprise!</summary>
 <br>
 <p align="center">
+  <b><img src="https://cdn.simpleicons.org/shieldsdotio/00F7F7" width="16"/> Security Tip:</b><br>
+  "Update your software regularly - patches fix vulnerabilities"<br>
+  <i>(Tip updates daily via GitHub Actions)</i>
   <br><br>
-  <b><img src="https://cdn.simpleicons.org/shieldsdotio/00F7F7" width="16"/> Random Security Tip:</b><br>
-  <img src="https://api.allorigins.win/raw?url=https://raw.githubusercontent.com/crazyscriptright/crazyscriptright/main/profile/security-tip.txt" alt="Security Tip" style="max-width:600px;"/>
-  <br><br>
-  <b><img src="https://cdn.simpleicons.org/laughingsquid/FF6D00" width="16"/> Random Dev Joke:</b><br>
+  <b>Random Dev Joke:</b><br>
   <img src="https://readme-jokes.vercel.app/api?theme=radical&hideBorder&qColor=%2300F7F7&aColor=%23FF6D00" alt="Random Dev Joke"/>
+</p>
 </p>
 </details>
 
