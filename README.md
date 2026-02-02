@@ -69,18 +69,34 @@ me.say_hi()
 
 <div align="center">
 
-## <img src="https://cdn.simpleicons.org/visualstudiocode/00F7F7" width="24"/> Tech Stack & Tools
+## <img src="https://cdn.simpleicons.org/stackshare/00F7F7" width="24"/> Tech Stack & Tools
 
 ### Languages
 
-<p>
-  <img src="https://skillicons.dev/icons?i=js,python,html,css,bash&theme=dark" />
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="JavaScript"/>
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python"/>
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="HTML5"/>
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="CSS3"/>
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="40" alt="Bash"/>
 </p>
 
 ### Frameworks & Libraries
 
-<p>
-  <img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,tailwind&theme=dark" />
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="React"/>
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="Node.js"/>
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="40" alt="Express"/>
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40" alt="MongoDB"/>
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" height="40" alt="TailwindCSS"/>
 </p>
 
 ### Cybersecurity Tools
@@ -93,8 +109,14 @@ me.say_hi()
 
 ### Cloud & DevOps
 
-<p>
-  <img src="https://skillicons.dev/icons?i=git,docker,vercel,linux&theme=dark" />
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="Git"/>
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="Docker"/>
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg" height="40" alt="Vercel"/>
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="Linux"/>
 </p>
 
 </div>
@@ -112,7 +134,9 @@ me.say_hi()
   <img height="200" src="./profile/top-langs.svg" alt="Top Languages"/>
 </a>
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=crazyscriptright&theme=radical&hide_border=true&background=0D1117&stroke=00F7F7&ring=00F7F7&fire=FF6D00&currStreakLabel=00F7F7)
+<a href="https://git.io/streak-stats">
+  <img src="https://streak-stats.demolab.com?user=crazyscriptright&theme=radical&hide_border=true&background=0D1117&stroke=00F7F7&ring=00F7F7&fire=FF6D00&currStreakLabel=00F7F7" alt="GitHub Streak"/>
+</a>
 
 </div>
 
